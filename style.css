@@ -1,0 +1,306 @@
+*{
+    margin:5px;
+    padding:2px;
+}
+body{
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+font-family: 'Lobster', cursive;
+font-family: 'Quicksand', sans-serif;
+
+}
+li{
+    list-style: none;
+    cursor:pointer;
+}
+a{
+    text-decoration: none;
+}
+button{
+    background-color: rgb(0,0,255);
+    padding:20px 20px;
+    cursor:pointer;
+    color:white;
+    border:2px solid white;
+    border-radius: 30px;
+    font-weight:900;
+    width:fit-content;
+}
+button:hover{
+    background-color:blueviolet;
+    color:white;
+    border:1px solid black;
+}
+nav{
+    display:flex;
+    width:100%;
+    align-items:center;
+    justify-content: space-around;
+}
+nav ul{
+    display:flex;
+    align-items: center;
+    gap:20px;
+    font-weight: 700;
+}
+nav li:hover{
+    text-decoration:underline;
+    color: purple;
+    font-weight: 900;
+}
+.hero-section-left h1{
+    color:black;
+    font-weight:900;
+    font-size: 100px;
+}
+.hero-section-left p{
+    color:grey;
+}
+.left-commitment{
+    justify-content: space-around;
+}
+.container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
+}
+input:hover{
+    border-radius: 5px solid black;
+    cursor:pointer;
+    display: flex;
+}
+.hero-right-section-btns{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.partners h2{
+    color:black;
+    font-weight: 700;
+    font-size: 50px;
+    display:inline-block;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.partners p{
+    color:grey;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.child{
+    display:inline-block;
+    vertical-align: middle;
+}
+.row1{
+    
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: row;
+    align-content: space-evenly;
+}
+.row2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    align-content: space-evenly;
+}
+.container2{
+    display:flex;
+    flex-direction: row;
+} 
+.box{
+    height: 200px;
+    width:200px;
+}
+.box1{
+    background-color:white;
+    float:left;
+}
+.box2{
+    background-color:white;
+    float: right;
+}
+.container2:hover{
+    color: blue;
+    text-decoration: underline;
+   
+} 
+.box3{
+    background-color:white;
+    float:left;
+    padding-left: 10px;
+}
+.container3{
+    display:flex;
+    justify-content: space-around;
+   
+} 
+.box4{
+    background-color:white;
+    float:right;
+}
+.box6{
+    background-color: white;
+    z-index: -2;
+}
+.container2{
+    justify-content: space-around;
+}
+.container2 h1{
+    font-size: 70px;
+}
+.container3 h1{
+    font-size: 70px;
+}
+.container3:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.right-commitment{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.right-commitment:hover{
+    color:blue;
+    text-decoration: underline;
+}
+.box5{
+    background-color: white;
+    width:340px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+.boxes{
+    height:500px;
+    width:500px;
+    background-color: white;
+    
+}
+.flex-container:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.flex-container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.work{
+    height:400px;
+    width:400px;
+    background-color: white;
+}
+.work:hover{
+    color:blue;
+    text-decoration: underline;
+}
+.heading h1{
+    text-align: center;
+}
+.see-button{
+    color: blue;
+    border-radius: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+.journey{
+    background-image: url(blueimg.jpg);
+    background-size: cover;
+    height:250px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.leftmain{
+    width:40%;
+}
+.leftmain h1{
+    font-size: 40px;
+    color:white;
+}
+.rightmain p{
+    color:white;
+    width:60%
+}
+.rightmain a{
+    color: white;
+    text-decoration: underline;
+}
+.rightmain:hover{
+    color:darkblue;
+    text-decoration: underline;
+}
+.leftmain:hover{
+    color:darkblue;
+    text-decoration: underline;
+}
+
+.flex-container3{
+    display:flex;
+    flex-direction: row(2,500px);
+    justify-content: space-around;
+}
+.team:hover{
+    color: blue;
+    text-decoration: underline;
+}
+.container4{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+.sec{
+    height:500px;
+    width:500px;
+}
+.sec1{
+    background-color: blue;
+}
+.sec:hover{
+    text-decoration: underline;
+}
+.journey1{
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: navy;
+    background-size: cover;
+    height: 300px;
+    border-radius: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.left-journey h1{
+    font-size: 50px;
+    color:white;
+}
+.journey1:hover{
+    text-decoration: underline;
+    text-decoration-color: lime;
+}
+.secs secs h1{
+    font-weight: 500;
+}
+.last{
+    align-content: center;
+    justify-content: center;
+}
+.center-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
